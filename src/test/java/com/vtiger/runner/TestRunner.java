@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features =  "src/test/resources/Features/",
         glue = "com.vtiger.stepdefinition",
         dryRun = false,
-        tags = "@ceo",
+        //tags = "@running",
         plugin = {"pretty",
                 "json:target/cucumber.json",
                 "html:target/cucumber-reports",
